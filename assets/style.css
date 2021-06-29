@@ -4,6 +4,8 @@
     --secondary-color: #45a16d;
 }
 
+/* HEADER STYLES */
+
 header {
     padding: 20px 35px;
     background-color: var(--secondary-color);
@@ -11,6 +13,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
 }
 
 header h1 {
@@ -19,30 +23,34 @@ header h1 {
     margin: 0;
 }
 
-header a {
-    text-decoration: none;
-}
-
 header nav {
     margin: 7px 0;
+    width: 20%;
+}
+
+header a {
+    text-decoration: none;
 }
 
 header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
     list-style: none;
     margin-right: 20px;
     font-size: 24px;
 }
 
+/* HEADER STYLES END */
+
+/* MAIN BODY STYLES */
 body {
     background-color: var(--background-color);
     color: var(--primary-color);
 }
 
-div {
+/* HOME PAGE BODY STYLES */
+.home {
     display: flex;
     flex-wrap: wrap;
 }
@@ -64,3 +72,46 @@ div {
     flex-wrap: wrap;
     width: 50%;
 }
+
+/* WORK PAGE STYLES */
+
+.samples {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sample {
+    padding-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section article div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+.ref-image {
+    width: 500px;
+    border-radius: 25px;
+}
+
+.right {
+    padding-left: 50px;
+    justify-content: flex-start;
+}
+
+.left {
+    padding-right: 50px;
+    justify-content: flex-end;
+}
+
+.description.left {
+    text-align: right;
+}
+
+/* CONTACT PAGE STYLES */
+
