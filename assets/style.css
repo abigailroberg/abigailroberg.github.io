@@ -83,6 +83,8 @@ h2 {
     font-size: 32px;
     margin: 0;
     padding-bottom: 10px;
+    font-style: italic;
+    
 }
 
 h3 {
@@ -138,6 +140,10 @@ section article div {
     padding-right: 10px;
 }
 
+li h2 {
+    font-style: normal;
+}
+
 .contact {
     display: flex;
     flex-wrap: wrap;
@@ -174,6 +180,10 @@ section article div {
     /* work page */
     #flip {
         flex-direction: column-reverse;
+    }
+
+    #flip p {
+        text-align: center;
     }
 
     .right, .left {
